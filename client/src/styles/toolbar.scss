@@ -1,0 +1,35 @@
+@import "./variables";
+
+.toolbar {
+  height: $tb-height;
+  background: #fff;
+  display: flex;
+  gap: 15px;
+  padding: 0 20px;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  box-shadow: 0 4px 5px gray;
+  z-index: 1;
+
+  &__btn {
+    height: 25px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+  .undo {
+    margin-left: auto;
+  }
+}
+
+.setting-bar {
+  height: $tb-height;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  box-shadow: 0 4px 5px gray;
+  top: $tb-height;
+}
